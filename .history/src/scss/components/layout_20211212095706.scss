@@ -1,0 +1,7 @@
+@use '../globals';
+@use '../utilities';
+
+.social-media__container {
+    max-width: 1024px;
+    margin: rem(40);
+}

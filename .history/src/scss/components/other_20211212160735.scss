@@ -1,0 +1,14 @@
+@use '../globals';
+@use '../utilities';
+
+.card {
+    background-color: var(--color-bg-card);
+    border-radius: 5px;
+    padding: 16px;
+    text-align: center;
+
+    &__flatform {
+        display: flex;
+        align-items: center;
+    }
+}

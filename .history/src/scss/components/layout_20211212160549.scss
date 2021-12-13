@@ -1,0 +1,22 @@
+@use '../globals';
+@use '../utilities/function.scss';
+
+.social-media {
+
+    &__container {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__dashboard {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: rem(20);
+    }
+}

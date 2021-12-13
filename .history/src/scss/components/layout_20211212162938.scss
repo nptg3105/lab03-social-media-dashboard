@@ -1,0 +1,24 @@
+@use '../globals';
+@use '../utilities';
+
+.social-media {
+    &__container {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 36px;
+        margin-bottom: 46px;
+        font-size: 28px;
+    }
+
+    &__dashboard {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}

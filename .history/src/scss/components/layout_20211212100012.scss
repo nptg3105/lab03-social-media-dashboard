@@ -1,0 +1,16 @@
+@use '../globals';
+@use '../utilities/function.scss';
+
+.social-media {
+
+    &__container {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

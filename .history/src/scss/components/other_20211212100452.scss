@@ -1,0 +1,14 @@
+@use '../globals';
+@use '../utilities';
+
+.header__toggle--button {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 20px;
+        background-color: var(----toggle-light);
+    }
+}
